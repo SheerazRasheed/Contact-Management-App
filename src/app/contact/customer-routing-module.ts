@@ -4,6 +4,7 @@ import {ContactMainComponent} from "./components/contact-main/contact-main.compo
 
 const routes: Routes = [
   {path: '', component: ContactMainComponent},
+  {path: 'contact', component: ContactMainComponent},
 ];
 
 @NgModule({

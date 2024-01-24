@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-contact-main',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './contact-main.component.scss'
 })
 export class ContactMainComponent {
-
+  title = 'Contact Management App';
 }
